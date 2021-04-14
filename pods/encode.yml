@@ -1,0 +1,6 @@
+!TransformerTorchEncoder
+with:
+  pooling_strategy: auto
+#   pretrained_model_name_or_path: hfl/chinese-roberta-wwm-ext
+  pretrained_model_name_or_path: ckiplab/bert-base-chinese
+  max_length: 192

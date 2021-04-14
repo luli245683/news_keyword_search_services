@@ -1,0 +1,9 @@
+!Flow
+version: '1'
+pods:
+  - name: encoder
+    uses: pods/encode_roberta.yml
+    timeout_ready: 1200000000
+    read_only: true
+  - name: indexer
+    uses: pods/index.yml
